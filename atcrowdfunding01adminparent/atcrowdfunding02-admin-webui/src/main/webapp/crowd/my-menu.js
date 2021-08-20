@@ -36,6 +36,7 @@ function generateTree() {
 // 在鼠标移开节点范围时删除按钮组
 function myRemoveHoverDom(treeId, treeNode) {
     var btnGroupId = treeNode.tId + "_btnGrp";
+    let a;
     //移除对应的元素
     $("#" + btnGroupId).remove();
 }
